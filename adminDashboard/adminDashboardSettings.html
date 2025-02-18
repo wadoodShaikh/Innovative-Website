@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>Innovative Information | Admin - Dashboard</title>
+	    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <!----css3---->
+        <link rel="stylesheet" href="css/custom.css">
+		
+		<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!--google fonts -->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	
+	
+	   <!--google material icon-->
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+
+  </head>
+  <body>
+  
+
+
+<div class="wrapper">
+     
+	  <div class="body-overlay"></div>
+	 
+	 <!-------sidebar--design------------>
+	 
+	 <div id="sidebar">
+	    <div class="sidebar-header">
+		   <h3><span>Innovative Information Classes</span></h3>
+		</div>
+		<ul class="list-unstyled component m-0">
+		  		  
+		  <li class="dropdown">
+		  <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">dashboard</i>Management
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu1">
+		     <li><a href="adminDashboard.html">User Management</a></li>
+			 <li><a href="adminDashboardCourses.html">Course Management</a></li>
+		  </ul>
+		  </li>
+		  
+		  
+		   <li class="dropdown">
+		  <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">equalizer</i>Report and Analysis
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu3">
+		     <li><a href="adminDashboardTeacherManagement.html">Educators</a></li>
+			 <li><a href="adminDashboardStudentManagement.html">Students</a></li>
+			 <li><a href="adminDashboardFinanceManagement.html">Finance and Payments</a></li>
+			 <li><a href="adminDashboardExamManagement.html">Exam and Grading</a></li>
+		  </ul>
+		  </li>
+		  
+		  <li class="">
+		  <a href="adminDashboardCommunication.html" class="">Communication </a>
+		  </li>
+		  <li class="">
+		  <a href="adminDashboardSettings.html" class="">Settings </a>
+		  </li>
+		  <li class="">
+		  <a href="../index.html" class="">Log Out </a>
+		  </li>
+		
+		</ul>
+	 </div>
+	 
+   <!-------sidebar--design- close----------->
+   
+   
+   
+      <!-------page-content start----------->
+   
+      <div id="content">
+	     
+		  <!------top-navbar-start-----------> 
+		     
+		  <div class="top-navbar">
+		     <div class="xd-topbar">
+			     <div class="row">
+				     <div class="col-2 col-md-1 col-lg-1 order-2 order-md-1 align-self-center">
+					    <div class="xp-menubar">
+						    <span class="material-icons text-white">signal_cellular_alt</span>
+						</div>
+					 </div>
+					 
+					 <div class="col-md-5 col-lg-3 order-3 order-md-2">
+					     <div class="xp-searchbar">
+						     <form>
+							    <div class="input-group">
+								  <input type="search" class="form-control"
+								  placeholder="Search">
+								  <div class="input-group-append">
+								     <button class="btn" type="submit" id="button-addon2">Go
+									 </button>
+								  </div>
+								</div>
+							 </form>
+						 </div>
+					 </div>
+					 
+					 
+					 <div class="col-10 col-md-6 col-lg-8 order-1 order-md-3">
+					     <div class="xp-profilebar text-right">
+						    <nav class="navbar p-0">
+							   <ul class="nav navbar-nav flex-row ml-auto">
+							   <li class="dropdown nav-item active">
+							     <a class="nav-link" href="#" data-toggle="dropdown">
+								  <span class="material-icons">notifications</span>
+								  <span class="notification">4</span>
+								 </a>
+								  <ul class="dropdown-menu">
+								     <li><a href="#">You Have 4 New Messages</a></li>
+									 <li><a href="#">You Have 4 New Messages</a></li>
+									 <li><a href="#">You Have 4 New Messages</a></li>
+									 <li><a href="#">You Have 4 New Messages</a></li>
+								  </ul>
+							   </li>
+							   
+							   
+							   <li class="dropdown nav-item">
+							     <a class="nav-link" href="#" data-toggle="dropdown">
+								  <img src="https://bootdey.com/img/Content/avatar/avatar1.png" style="width:40px; border-radius:50%;"/>
+								  <span class="xp-user-live"></span>
+								 </a>
+								  <ul class="dropdown-menu small-menu">
+								     <li><a href="adminDashboardSettings.html">
+									 <span class="material-icons">person_outline</span>
+									 Profile
+									 </a></li>
+									 
+									 <li><a href="../index.html">
+									 <span class="material-icons">logout</span>
+									 Logout
+									 </a></li>
+									 
+								  </ul>
+							   </li>
+							   
+							   
+							   </ul>
+							</nav>
+						 </div>
+					 </div>
+					 
+				 </div>
+				 
+				 <div class="xp-breadcrumbbar text-center">
+				    <h4 class="page-title">Settings</h4>
+				
+				 </div>
+				 
+				 
+			 </div>
+		  </div>
+		  <!------top-navbar-end-----------> 
+		  
+		  
+		   <!------main-content-start-----------> 
+		     <div class="container light-style flex-grow-1 container-p-y">
+        <h4 class="font-weight-bold py-3 mb-4">
+            Account settings
+        </h4>
+        <div class="card overflow-hidden">
+            <div class="row no-gutters row-bordered row-border-light">
+                <div class="col-md-3 pt-0">
+                    <div class="list-group list-group-flush account-settings-links">
+                        <a class="list-group-item list-group-item-action active" data-toggle="list"
+                            href="#account-general">General</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-change-password">Change password</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-info">Info</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-social-links">Social links</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-connections">Support and Feedback</a>
+                        <!-- <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-notifications">Notifications</a> -->
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content">
+                        <div class="tab-pane fade active show" id="account-general">
+                            <div class="card-body media align-items-center">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt
+                                    class="d-block ui-w-80">
+                                <div class="media-body ml-4">
+                                    <label class="btn btn-outline-primary">
+                                        Upload new photo
+                                        <input type="file" class="account-settings-fileinput">
+                                    </label> &nbsp;
+                                    <button type="button" class="btn btn-default md-btn-flat">Reset</button>
+                                    <div class="text-light small mt-1">Allowed JPG, GIF or PNG. Max size of 800K</div>
+                                </div>
+                            </div>
+                            <hr class="border-light m-0">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label class="form-label">Username</label>
+                                    <input type="text" class="form-control mb-1" placeholder="Enter Username">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter Name">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">E-mail</label>
+                                    <input type="text" class="form-control mb-1" placeholder="Enter Email">
+                                    <div class="alert alert-warning mt-3">
+                                        Your email is not confirmed. Please check your inbox.<br>
+                                        <a href="javascript:void(0)">Resend confirmation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="account-change-password">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Current password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">New password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Repeat new password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="account-info">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Bio</label>
+                                    <textarea class="form-control"
+                                        rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Birthday</label>
+                                    <input type="date" class="form-control" >
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Country</label>
+                                    <input type="text" class="form-control mb-1" placeholder="Enter Country">
+                                </div>
+                            </div>
+                            <hr class="border-light m-0">
+                            <div class="card-body pb-2">
+                                <h6 class="mb-4">Contacts</h6>
+                                <div class="form-group">
+                                    <label class="form-label">Phone</label>
+                                    <input type="number" class="form-control" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="account-social-links">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Twitter</label>
+                                    <input type="text" class="form-control" value="https://twitter.com/user">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Facebook</label>
+                                    <input type="text" class="form-control" value="https://www.facebook.com/user">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Google+</label>
+                                    <input type="text" class="form-control" value>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">LinkedIn</label>
+                                    <input type="text" class="form-control" value>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Instagram</label>
+                                    <input type="text" class="form-control" value="https://www.instagram.com/user">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="account-connections">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label class="form-label">Username</label>
+                                    <input type="text" class="form-control mb-1" placeholder="Enter Username">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Subject</label>
+                                    <input type="text" class="form-control" placeholder="Enter Subject">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Feedback</label>
+                                    <textarea class="form-control"
+                                        rows="5"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mt-3">
+            <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
+            <button type="button" class="btn btn-default">Cancel</button>
+        </div>
+    </div>
+		    <!------main-content-end-----------> 
+		  
+		 
+		 
+		 <!----footer-design------------->
+		 
+		 <footer class="footer">
+		    <div class="container-fluid">
+			   <div class="footer-in">
+			      <p class="mb-0"> Innovative Information Classes. All Rights Reserved.</p>
+			   </div>
+			</div>
+		 </footer>
+		 
+		 
+		 
+		 
+	  </div>
+   
+</div>
+
+
+
+<!-------complete html----------->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+
+
+
+
+  
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+  
+  
+  <script type="text/javascript">
+       $(document).ready(function(){
+	      $(".xp-menubar").on('click',function(){
+		    $("#sidebar").toggleClass('active');
+			$("#content").toggleClass('active');
+		  });
+		  
+		  $('.xp-menubar,.body-overlay').on('click',function(){
+		     $("#sidebar,.body-overlay").toggleClass('show-nav');
+		  });
+		  
+	   });
+  </script>
+  
+  
+
+
+
+  </body>
+  
+  </html>
+
+
